@@ -8,7 +8,6 @@ import postRoutes from './routes/posts.js';
 
 const app = express();
 dotenv.config();
-//for cross platform resource sharing
 app.use(cors());
 
 
